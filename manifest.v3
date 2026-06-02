@@ -10,7 +10,6 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="WmSalesforceProvider">*</value>
     <value name="WmCloudStreams">*</value>
     <value name="WmSalesforceRESTProvider">*</value>
   </record>
