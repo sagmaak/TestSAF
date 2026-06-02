@@ -9,15 +9,18 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmSalesforceProvider">*</value>
+    <value name="WmCloudStreams">*</value>
+  </record>
   <null name="lazy_load_node_types"/>
-  <null name="listACL"/>
+  <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
   <null name="build"/>
   <null name="description"/>
   <value name="created_date">30-05-2026 19:39:11 IST</value>
   <null name="extendedProperties"/>
-  <value name="target_server_version">12.1.0.0</value>
+  <null name="target_server_version"/>
   <value name="isProjectPackage">false</value>
 </Values>

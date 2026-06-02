@@ -12,6 +12,7 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="WmSalesforceProvider">*</value>
     <value name="WmCloudStreams">*</value>
+    <value name="WmSalesforceRESTProvider">*</value>
   </record>
   <null name="lazy_load_node_types"/>
   <value name="listACL">Default</value>
