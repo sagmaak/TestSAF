@@ -13,7 +13,7 @@
     <value name="providerName">WmSalesforceRESTProvider</value>
     <value name="providerConnectionType">sagcloud_oauth_v20_jwt</value>
     <record name="connectionGroupProperties" javaclass="com.wm.util.Values">
-      <value name="cn.providerUrl">https://orgfarm-2317073f1e-dev-ed.develop.my.salesforce.com/services/oauth2/token</value>
+      <value name="cn.providerUrl">https://orgfarm-2317073f1e-dev-ed.develop.my.salesforce.com</value>
       <value name="cn.connectTimeout">180000</value>
       <value name="cn.readTimeout">180000</value>
       <value name="cn.socketStaleCheck">true</value>
@@ -37,15 +37,15 @@
       <value name="oauth_v20.iss">3MVG9GCMQoQ6rpzTGBBxeac7nyadI77KgAQaEElMUWTgMjdI2YtPuBTHxri6wXXR9zvHyH5y8m.LyQMN.mSWV</value>
       <value name="oauth_v20.sub">integration.user@wm.com</value>
       <value name="oauth.accessToken">TestSAF.connection:SF_REST_JWT_CONN2.oauth.accessToken</value>
-      <value name="oauth_v20.instanceURL"></value>
+      <value name="oauth_v20.instanceURL">https://orgfarm-2317073f1e-dev-ed.develop.my.salesforce.com</value>
       <value name="oauth_v20.authorizationHeaderPrefix">Bearer</value>
       <value name="oauth_v20.accessTokenRefreshCustomESBService"></value>
       <value name="jwt.authenticationServerUrl">https://login.salesforce.com/services/oauth2/token</value>
       <value name="jwt.header.alg">RS256</value>
       <value name="jwt.claim.aud">https://login.salesforce.com</value>
       <value name="jwt.omitPadding">false</value>
-      <value name="jwt.keystoreAlias"></value>
-      <value name="jwt.keyAlias"></value>
+      <value name="jwt.keystoreAlias">DEFAULT_IS_KEYSTORE</value>
+      <value name="jwt.keyAlias">ssos</value>
       <value name="jwt.proxyAlias"></value>
       <value name="jwt.claim.exp">60</value>
     </record>
@@ -61,7 +61,8 @@
       <value name="expireTimeout">1000</value>
       <value name="startupRetryCount">0</value>
       <value name="startupBackoffSecs">10</value>
-      <value name="timeoutType">none</value>
+      <value name="timeoutType">auto</value>
+      <value name="sessionExpiry">60</value>
     </record>
     <array name="formattableFields" type="value" depth="1">
     </array>
