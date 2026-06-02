@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">CloudConnectionNode</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">TestSAF.connection:SF_REST_JWT_CONN2</value>
+  <value name="node_pkg">TestSAF</value>
+  <value name="is_public">false</value>
+  <value name="cloudNodeVersion">1</value>
+  <record name="cloudNodeProperties" javaclass="com.wm.util.Values">
+    <number name="connectionNodeVersion" type="Integer">1</number>
+    <value name="connectorID">com.webmethods.cloudstreams.salesforce.rest_v60</value>
+    <value name="providerName">WmSalesforceRESTProvider</value>
+    <value name="providerConnectionType">sagcloud_oauth_v20_jwt</value>
+    <record name="connectionGroupProperties" javaclass="com.wm.util.Values">
+      <value name="cn.providerUrl">https://orgfarm-2317073f1e-dev-ed.develop.my.salesforce.com/services/oauth2/token</value>
+      <value name="cn.connectTimeout">180000</value>
+      <value name="cn.readTimeout">180000</value>
+      <value name="cn.socketStaleCheck">true</value>
+      <value name="cn.validateAfterInactivity">1000</value>
+      <value name="cn.retryCount">1</value>
+      <value name="cn.retryIfRequestSentOk">true</value>
+      <value name="cn.tcpNoDelay">false</value>
+      <value name="cn.socketLinger">-1</value>
+      <value name="cn.sockBuffSize">8192</value>
+      <value name="cn.reuseAddr">false</value>
+      <value name="cn.webproxyAlias"></value>
+      <value name="cn.truststoreAlias"></value>
+      <value name="cn.keystoreAlias"></value>
+      <value name="cn.clientKeyAlias"></value>
+      <value name="cn.hostnameVerifier">org.apache.http.conn.ssl.DefaultHostnameVerifier</value>
+      <value name="cn.keepAliveInterval">300000</value>
+      <value name="cn.idleTimeout">-1</value>
+      <value name="cn.enableCompression">false</value>
+      <value name="cn.enableSNI">true</value>
+      <value name="cn.sniServerName"></value>
+      <value name="oauth_v20.iss">3MVG9GCMQoQ6rpzTGBBxeac7nyadI77KgAQaEElMUWTgMjdI2YtPuBTHxri6wXXR9zvHyH5y8m.LyQMN.mSWV</value>
+      <value name="oauth_v20.sub">integration.user@wm.com</value>
+      <value name="oauth.accessToken">TestSAF.connection:SF_REST_JWT_CONN2.oauth.accessToken</value>
+      <value name="oauth_v20.instanceURL"></value>
+      <value name="oauth_v20.authorizationHeaderPrefix">Bearer</value>
+      <value name="oauth_v20.accessTokenRefreshCustomESBService"></value>
+      <value name="jwt.authenticationServerUrl">https://login.salesforce.com/services/oauth2/token</value>
+      <value name="jwt.header.alg">RS256</value>
+      <value name="jwt.claim.aud">https://login.salesforce.com</value>
+      <value name="jwt.omitPadding">false</value>
+      <value name="jwt.keystoreAlias"></value>
+      <value name="jwt.keyAlias"></value>
+      <value name="jwt.proxyAlias"></value>
+      <value name="jwt.claim.exp">60</value>
+    </record>
+    <array name="passmanHandles" type="value" depth="1">
+      <value>TestSAF.connection:SF_REST_JWT_CONN2.oauth.accessToken</value>
+    </array>
+    <record name="connectionManagerProperties" javaclass="com.wm.util.Values">
+      <value name="poolable">true</value>
+      <value name="minimumPoolSize">1</value>
+      <value name="maximumPoolSize">10</value>
+      <value name="poolIncrementSize">1</value>
+      <value name="blockTimeout">1000</value>
+      <value name="expireTimeout">1000</value>
+      <value name="startupRetryCount">0</value>
+      <value name="startupBackoffSecs">10</value>
+      <value name="timeoutType">none</value>
+    </record>
+    <array name="formattableFields" type="value" depth="1">
+    </array>
+    <value name="connectionEnabled">false</value>
+  </record>
+  <value name="LOCK_REQUIRED">false</value>
+</Values>

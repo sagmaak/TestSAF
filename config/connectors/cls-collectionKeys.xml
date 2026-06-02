@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
+        <servicesKeys>
+            <keyDetails collectionKey="TestSAF.services:new_cloudservice" connectorServiceName="TestSAF.services:new_cloudservice"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
         <servicesKeys>
             <keyDetails collectionKey="TestSAF.services:SFCS1" connectorServiceName="TestSAF.services:SFCS1"/>
