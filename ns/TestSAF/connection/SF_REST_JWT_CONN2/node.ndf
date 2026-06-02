@@ -65,7 +65,6 @@
     </record>
     <array name="formattableFields" type="value" depth="1">
     </array>
-    <value name="connectionEnabled">false</value>
+    <value name="connectionEnabled">true</value>
   </record>
-  <value name="LOCK_REQUIRED">false</value>
 </Values>
